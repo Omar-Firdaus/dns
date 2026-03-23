@@ -423,6 +423,11 @@ goship: # BnaJns - U08R49H9VRV
   type: CNAME
   value: proxy.bnajns.dev.
 
+gridlock:
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
+
 hackai: # coolcream - U096RMRG03G
 - ttl: 600
   type: A
@@ -682,6 +687,7 @@ numycode: # numycode@pyroforge.dev U0A6U9MEA5D
     value: numycode.github.io.
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # use this as an example for your own domain!
+
 
 orbit: # U08RU1GTXSP
   ttl: 600
