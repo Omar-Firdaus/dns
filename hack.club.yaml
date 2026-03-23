@@ -42,6 +42,10 @@ flavortown: # U092CHMLB24
 hack.club:
   - type: CNAME
     value: cname.vercel-dns.com.
+hctg: # U092CHMLB24
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
 l:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
@@ -52,6 +56,10 @@ mail:
   - type: CNAME
     value: a.selfhosted.hackclub.com.
 moonshot:
+  - ttl: 600
+    type: CNAME
+    value: a.selfhosted.hackclub.com.
+p: # nora
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
@@ -67,6 +75,10 @@ sleepover: # U092CHMLB24
   - ttl: 600
     type: CNAME
     value: a.selfhosted.hackclub.com.
+stasis: # alexp@hackclub.com
+  - ttl: 600
+    type: CNAME
+    value: b9385139e8ff984c.vercel-dns-016.com.
 summer:
   - type: CNAME
     value: a.selfhosted.hackclub.com.

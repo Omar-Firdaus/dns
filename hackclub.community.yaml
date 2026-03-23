@@ -90,6 +90,14 @@ aus: # benjamin.graetz@henleyhs.sa.edu.au U0828CN2BL4
   - ttl: 600
     type: A
     value: 35.158.87.123
+create-mc: # grayson@vantilborg.ca U092DA495UY # This is for a create minecraft server, see channel C0AD3QV5C5D
+  - ttl: 600
+    type: A
+    value: 40.233.121.197
+status.create-mc: # grayson@vantilborg.ca U092DA495UY # This is for the status page of the minecraft server listed above. its the same ip, and im handling it locally with nginx
+  - ttl: 600
+    type: A
+    value: 40.233.121.197
 emoji: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
@@ -103,6 +111,11 @@ n8n: # U07AGEVSTD2
   - ttl: 600
     type: CNAME
     value: felix1.hackclub.app.
+# https://github.com/hackclub-community/rsvp
+rsvp: # U08PUHSMW4V
+  - ttl: 600
+    type: A
+    value: 192.9.226.154
 stats: # alimad.co.ltd@gmail.com U08LQFRBL6S
   - ttl: 300
     type: CNAME
